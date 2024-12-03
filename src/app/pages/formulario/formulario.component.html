@@ -1,0 +1,26 @@
+<form [formGroup]="form">
+  <!--  -->
+  <div class="row p-0">
+  <div class="mb3 col-md-4">
+    <label for="cep" class="form-label">Cep</label>
+    <input formControlName="cep" type="text" class="form-control" id="cep" placeholder="Digite o cep">
+  </div>
+
+  <div class="mb3 col-md-6">
+    <label for="logradouro" class="form-label">Logradouro</label>
+    <input formControlName="logradouro" type="text" class="form-control" id="logradouro" placeholder="Digite o endereço">
+  </div>
+  <div class="mb3 col-md-4">
+    <label for="bairro" class="form-label">Bairro</label>
+    <input formControlName="bairro" type="text" class="form-control" id="bairro" placeholder="Digite o nome do bairro">
+  </div>
+  <div class="mb3 col-md-4">
+    <label for="cidade" class="form-label">Cidade</label>
+    <input formControlName="cidade" type="text" class="form-control" id="cidade" placeholder="Digite o nome da cidade">
+  </div>
+  <div class="mb3  col-md-2">
+    <label for="estado" class="form-label">Estado</label>
+    <input formControlName="estado" type="text" class="form-control" id="estado" placeholder="Digite o nome do estado">
+  </div>
+  </div>
+</form>
